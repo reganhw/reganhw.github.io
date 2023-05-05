@@ -4,7 +4,7 @@ body{
 }
 
 .content{
-    height: 93vh;
+    height: auto;
     display:flex;
     flex-direction: column;
     justify-content:space-around;
@@ -16,6 +16,7 @@ body{
     
     
     width: 400px;
+ 
 
 
     display:grid;
@@ -84,11 +85,12 @@ body{
     /*
     height : 50%;
     width : 600px;
-    max-width : 95%;
+    max-width : 95vw;
     */
     width: 400px;
     height: 480px;
     position: relative;
+    margin-top : 4vh;
 }
 
 .row {
