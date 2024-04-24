@@ -81,6 +81,7 @@ h2{
 
 .proj_name:hover{
     background-color: #9ffe36;
+    color: #000000;
     transition: transform 0.25s;
     transform-origin: left;
 }
