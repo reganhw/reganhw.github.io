@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: center;
     background-color: #2e37fe;
-    font-color: #fffefa;
+    color: #fffefa;
 }
 
 a{
