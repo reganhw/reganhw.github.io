@@ -4,6 +4,8 @@ body{
     
     display: flex;
     justify-content: center;
+    background-color: #2e37fe;
+    font-color: #fffefa;
 }
 
 a{
@@ -78,7 +80,7 @@ h2{
 
 
 .proj_name:hover{
-    background-color: yellow;
+    background-color: #9ffe36;
     transition: transform 0.25s;
     transform-origin: left;
 }
