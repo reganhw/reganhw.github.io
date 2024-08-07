@@ -1,0 +1,89 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    background-color: #2e37fe;
+    color: #fffefa;
+}
+
+a{
+    color: inherit;
+}
+
+p{
+    line-height: 1.5;
+    font-size: 18px;
+    
+}
+.project_list{
+    border-radius:10px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.proj{
+    
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.proj_name{
+    font-size: 18px;
+    font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.proj_name .korean{
+    letter-spacing:0;
+    font-size:20px;
+    text-transform: none;
+    font-weight: bold;
+}
+.proj_name a{
+    text-decoration: none;
+}
+
+.content{
+    width: 600px;
+    max-width: 97vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.project_list h2{
+    margin-left: 1vw;
+}
+
+.about{
+    
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius:10px;
+}
+h2{
+
+    font-family: arial;
+}
+
+
+.korean{
+    font-size: 17px;
+    font-family: 'Jeju Myeongjo', serif;
+}
+
+
+.proj_name:hover{
+    background-color: #9ffe36;
+    color: #000000;
+    transition: transform 0.25s;
+    transform-origin: left;
+}
+ 
+  
